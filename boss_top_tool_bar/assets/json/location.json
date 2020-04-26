@@ -1,0 +1,1253 @@
+{
+    "first_level_list" : [
+        {
+            "first_level_name" : "商圈",
+            "second_level_list" : [
+                {
+                    "second_level_name" : "全北京",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全北京"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "朝阳区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全朝阳区"
+                        },
+                        {
+                            "tird_level_name" : "望京"
+                        },
+                        {
+                            "tird_level_name" : "酒仙桥"
+                        },
+                        {
+                            "tird_level_name" : "高碑店"
+                        },
+                        {
+                            "tird_level_name" : "大望路"
+                        },
+                        {
+                            "tird_level_name" : "国贸"
+                        },
+                        {
+                            "tird_level_name" : "百子湾"
+                        },
+                        {
+                            "tird_level_name" : "朝外"
+                        },
+                        {
+                            "tird_level_name" : "北苑"
+                        },
+                        {
+                            "tird_level_name" : "三元桥"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "海淀区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全海淀区"
+                        },
+                        {
+                            "tird_level_name" : "上地"
+                        },
+                        {
+                            "tird_level_name" : "中关村"
+                        },
+                        {
+                            "tird_level_name" : "西北旺"
+                        },
+                        {
+                            "tird_level_name" : "五道口"
+                        },
+                        {
+                            "tird_level_name" : "清河"
+                        },
+                        {
+                            "tird_level_name" : "知春路"
+                        },
+                        {
+                            "tird_level_name" : "西二旗"
+                        },
+                        {
+                            "tird_level_name" : "四季青"
+                        },
+                        {
+                            "tird_level_name" : "学院路"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "大兴区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全大兴区"
+                        },
+                        {
+                            "tird_level_name" : "亦庄"
+                        },
+                        {
+                            "tird_level_name" : "黄村"
+                        },
+                        {
+                            "tird_level_name" : "西红门"
+                        },
+                        {
+                            "tird_level_name" : "旧宫"
+                        },
+                        {
+                            "tird_level_name" : "庞各庄"
+                        },
+                        {
+                            "tird_level_name" : "高米店南"
+                        },
+                        {
+                            "tird_level_name" : "天宫院"
+                        },
+                        {
+                            "tird_level_name" : "清源"
+                        },
+                        {
+                            "tird_level_name" : "瀛海"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "丰台区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全丰台区"
+                        },
+                        {
+                            "tird_level_name" : "科技园区"
+                        },
+                        {
+                            "tird_level_name" : "马家堡"
+                        },
+                        {
+                            "tird_level_name" : "宋家庄"
+                        },
+                        {
+                            "tird_level_name" : "六里桥"
+                        },
+                        {
+                            "tird_level_name" : "花乡"
+                        },
+                        {
+                            "tird_level_name" : "方庄"
+                        },
+                        {
+                            "tird_level_name" : "丽泽"
+                        },
+                        {
+                            "tird_level_name" : "看丹桥"
+                        },
+                        {
+                            "tird_level_name" : "北大地"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "东城区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全东城区"
+                        },
+                        {
+                            "tird_level_name" : "东直门"
+                        },
+                        {
+                            "tird_level_name" : "朝阳门"
+                        },
+                        {
+                            "tird_level_name" : "东四"
+                        },
+                        {
+                            "tird_level_name" : "广渠门"
+                        },
+                        {
+                            "tird_level_name" : "崇文门"
+                        },
+                        {
+                            "tird_level_name" : "东单"
+                        },
+                        {
+                            "tird_level_name" : "和平里"
+                        },
+                        {
+                            "tird_level_name" : "安定门"
+                        },
+                        {
+                            "tird_level_name" : "王府井"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "通州区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全通州区"
+                        },
+                        {
+                            "tird_level_name" : "次渠"
+                        },
+                        {
+                            "tird_level_name" : "马驹桥"
+                        },
+                        {
+                            "tird_level_name" : "北苑"
+                        },
+                        {
+                            "tird_level_name" : "梨园"
+                        },
+                        {
+                            "tird_level_name" : "九棵树"
+                        },
+                        {
+                            "tird_level_name" : "北关"
+                        },
+                        {
+                            "tird_level_name" : "宋庄"
+                        },
+                        {
+                            "tird_level_name" : "新华大街"
+                        },
+                        {
+                            "tird_level_name" : "永顺"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "昌平区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全昌平区"
+                        },
+                        {
+                            "tird_level_name" : "回龙观"
+                        },
+                        {
+                            "tird_level_name" : "沙河"
+                        },
+                        {
+                            "tird_level_name" : "天通苑"
+                        },
+                        {
+                            "tird_level_name" : "北七家"
+                        },
+                        {
+                            "tird_level_name" : "昌平"
+                        },
+                        {
+                            "tird_level_name" : "立水桥"
+                        },
+                        {
+                            "tird_level_name" : "南邵"
+                        },
+                        {
+                            "tird_level_name" : "小汤山"
+                        },
+                        {
+                            "tird_level_name" : "城南"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "西城区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全西城区"
+                        },
+                        {
+                            "tird_level_name" : "西直门"
+                        },
+                        {
+                            "tird_level_name" : "金融街"
+                        },
+                        {
+                            "tird_level_name" : "西单"
+                        },
+                        {
+                            "tird_level_name" : "马甸"
+                        },
+                        {
+                            "tird_level_name" : "广安门"
+                        },
+                        {
+                            "tird_level_name" : "宣武门"
+                        },
+                        {
+                            "tird_level_name" : "月坛"
+                        },
+                        {
+                            "tird_level_name" : "阜成门"
+                        },
+                        {
+                            "tird_level_name" : "德外大街"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "顺义区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全顺义区"
+                        },
+                        {
+                            "tird_level_name" : "后沙峪"
+                        },
+                        {
+                            "tird_level_name" : "仁和"
+                        },
+                        {
+                            "tird_level_name" : "马坡"
+                        },
+                        {
+                            "tird_level_name" : "天竺"
+                        },
+                        {
+                            "tird_level_name" : "首都机场"
+                        },
+                        {
+                            "tird_level_name" : "南彩"
+                        },
+                        {
+                            "tird_level_name" : "李桥"
+                        },
+                        {
+                            "tird_level_name" : "石园"
+                        },
+                        {
+                            "tird_level_name" : "胜利"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "石景山区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全石景山区"
+                        },
+                        {
+                            "tird_level_name" : "古城"
+                        },
+                        {
+                            "tird_level_name" : "鲁谷"
+                        },
+                        {
+                            "tird_level_name" : "苹果园"
+                        },
+                        {
+                            "tird_level_name" : "八角"
+                        },
+                        {
+                            "tird_level_name" : "杨庄"
+                        },
+                        {
+                            "tird_level_name" : "八宝山"
+                        },
+                        {
+                            "tird_level_name" : "八大处"
+                        },
+                        {
+                            "tird_level_name" : "老山"
+                        },
+                        {
+                            "tird_level_name" : "金顶街"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "房山区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全房山区"
+                        },
+                        {
+                            "tird_level_name" : "长阳"
+                        },
+                        {
+                            "tird_level_name" : "良乡"
+                        },
+                        {
+                            "tird_level_name" : "阎村"
+                        },
+                        {
+                            "tird_level_name" : "窦店"
+                        },
+                        {
+                            "tird_level_name" : "城关"
+                        },
+                        {
+                            "tird_level_name" : "燕山"
+                        },
+                        {
+                            "tird_level_name" : "琉璃河"
+                        },
+                        {
+                            "tird_level_name" : "迎风"
+                        },
+                        {
+                            "tird_level_name" : "韩村河"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "门头沟区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全门头沟区"
+                        },
+                        {
+                            "tird_level_name" : "永定"
+                        },
+                        {
+                            "tird_level_name" : "大峪"
+                        },
+                        {
+                            "tird_level_name" : "龙泉"
+                        },
+                        {
+                            "tird_level_name" : "潭拓寺"
+                        },
+                        {
+                            "tird_level_name" : "军庄"
+                        },
+                        {
+                            "tird_level_name" : "东辛房"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "怀柔区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全怀柔区"
+                        },
+                        {
+                            "tird_level_name" : "雁栖"
+                        },
+                        {
+                            "tird_level_name" : "庙城"
+                        },
+                        {
+                            "tird_level_name" : "泉河"
+                        },
+                        {
+                            "tird_level_name" : "杨宋"
+                        },
+                        {
+                            "tird_level_name" : "北房"
+                        },
+                        {
+                            "tird_level_name" : "桥梓"
+                        },
+                        {
+                            "tird_level_name" : "慕田峪长城"
+                        },
+                        {
+                            "tird_level_name" : "怀北"
+                        },
+                        {
+                            "tird_level_name" : "黄花...长城"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "平谷区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全平谷区"
+                        },
+                        {
+                            "tird_level_name" : "兴谷"
+                        },
+                        {
+                            "tird_level_name" : "马昌营"
+                        },
+                        {
+                            "tird_level_name" : "渔阳"
+                        },
+                        {
+                            "tird_level_name" : "王辛庄"
+                        },
+                        {
+                            "tird_level_name" : "峪口"
+                        },
+                        {
+                            "tird_level_name" : "金海湖"
+                        },
+                        {
+                            "tird_level_name" : "东高村"
+                        },
+                        {
+                            "tird_level_name" : "刘家店"
+                        },
+                        {
+                            "tird_level_name" : "黄松峪"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "延庆区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全延庆区"
+                        },
+                        {
+                            "tird_level_name" : "康庄"
+                        },
+                        {
+                            "tird_level_name" : "八达岭"
+                        },
+                        {
+                            "tird_level_name" : "大榆树"
+                        },
+                        {
+                            "tird_level_name" : "永定"
+                        },
+                        {
+                            "tird_level_name" : "龙庆峡"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "密云区",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全密云区"
+                        },
+                        {
+                            "tird_level_name" : "司马台长城"
+                        },
+                        {
+                            "tird_level_name" : "密云水库"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "first_level_name" : "地铁",
+            "second_level_list" : [
+                {
+                    "second_level_name" : "全北京",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全北京"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "1号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全1号线"
+                        },
+                        {
+                            "tird_level_name" : "苹果园"
+                        },
+                        {
+                            "tird_level_name" : "古城"
+                        },
+                        {
+                            "tird_level_name" : "八角游乐园"
+                        },
+                        {
+                            "tird_level_name" : "八宝山"
+                        },
+                        {
+                            "tird_level_name" : "玉泉路"
+                        },
+                        {
+                            "tird_level_name" : "五棵松"
+                        },
+                        {
+                            "tird_level_name" : "万寿路"
+                        },
+                        {
+                            "tird_level_name" : "公主坟"
+                        },
+                        {
+                            "tird_level_name" : "军事博物馆"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "2号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全2号线"
+                        },
+                        {
+                            "tird_level_name" : "积水潭"
+                        },
+                        {
+                            "tird_level_name" : "鼓楼大街"
+                        },
+                        {
+                            "tird_level_name" : "安定门"
+                        },
+                        {
+                            "tird_level_name" : "雍和宫"
+                        },
+                        {
+                            "tird_level_name" : "东直门"
+                        },
+                        {
+                            "tird_level_name" : "东四十条"
+                        },
+                        {
+                            "tird_level_name" : "朝阳门"
+                        },
+                        {
+                            "tird_level_name" : "建国门"
+                        },
+                        {
+                            "tird_level_name" : "北京站"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "4号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全4号线"
+                        },
+                        {
+                            "tird_level_name" : "天宫院"
+                        },
+                        {
+                            "tird_level_name" : "生物...基地"
+                        },
+                        {
+                            "tird_level_name" : "义和庄"
+                        },
+                        {
+                            "tird_level_name" : "黄村火车站"
+                        },
+                        {
+                            "tird_level_name" : "黄村西大街"
+                        },
+                        {
+                            "tird_level_name" : "清源路"
+                        },
+                        {
+                            "tird_level_name" : "枣园"
+                        },
+                        {
+                            "tird_level_name" : "高米店南"
+                        },
+                        {
+                            "tird_level_name" : "高米店北"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "5号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全5号线"
+                        },
+                        {
+                            "tird_level_name" : "宋家庄"
+                        },
+                        {
+                            "tird_level_name" : "刘家窑"
+                        },
+                        {
+                            "tird_level_name" : "蒲黄榆"
+                        },
+                        {
+                            "tird_level_name" : "天坛东门"
+                        },
+                        {
+                            "tird_level_name" : "磁器口"
+                        },
+                        {
+                            "tird_level_name" : "崇文门"
+                        },
+                        {
+                            "tird_level_name" : "东单"
+                        },
+                        {
+                            "tird_level_name" : "灯市口"
+                        },
+                        {
+                            "tird_level_name" : "东四"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "6号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全6号线"
+                        },
+                        {
+                            "tird_level_name" : "潞城"
+                        },
+                        {
+                            "tird_level_name" : "东夏园"
+                        },
+                        {
+                            "tird_level_name" : "郝家府"
+                        },
+                        {
+                            "tird_level_name" : "北运河西"
+                        },
+                        {
+                            "tird_level_name" : "通州北关"
+                        },
+                        {
+                            "tird_level_name" : "物资学院路"
+                        },
+                        {
+                            "tird_level_name" : "草房"
+                        },
+                        {
+                            "tird_level_name" : "常营"
+                        },
+                        {
+                            "tird_level_name" : "黄渠"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "7号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全7号线"
+                        },
+                        {
+                            "tird_level_name" : "焦化厂"
+                        },
+                        {
+                            "tird_level_name" : "双合"
+                        },
+                        {
+                            "tird_level_name" : "欢乐谷景区"
+                        },
+                        {
+                            "tird_level_name" : "南楼梓庄"
+                        },
+                        {
+                            "tird_level_name" : "化工"
+                        },
+                        {
+                            "tird_level_name" : "百子湾"
+                        },
+                        {
+                            "tird_level_name" : "大郊亭"
+                        },
+                        {
+                            "tird_level_name" : "九龙山"
+                        },
+                        {
+                            "tird_level_name" : "广渠门外"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "8号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全8号线"
+                        },
+                        {
+                            "tird_level_name" : "南锣鼓巷"
+                        },
+                        {
+                            "tird_level_name" : "什刹海"
+                        },
+                        {
+                            "tird_level_name" : "鼓楼大街"
+                        },
+                        {
+                            "tird_level_name" : "安德里北街"
+                        },
+                        {
+                            "tird_level_name" : "安华桥"
+                        },
+                        {
+                            "tird_level_name" : "北土城"
+                        },
+                        {
+                            "tird_level_name" : "奥体中心"
+                        },
+                        {
+                            "tird_level_name" : "奥林...公园"
+                        },
+                        {
+                            "tird_level_name" : "森林...南门"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "9号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全9号线"
+                        },
+                        {
+                            "tird_level_name" : "郭公庄"
+                        },
+                        {
+                            "tird_level_name" : "丰台科技园"
+                        },
+                        {
+                            "tird_level_name" : "科怡路"
+                        },
+                        {
+                            "tird_level_name" : "丰台南路"
+                        },
+                        {
+                            "tird_level_name" : "丰台东大街"
+                        },
+                        {
+                            "tird_level_name" : "七里庄"
+                        },
+                        {
+                            "tird_level_name" : "六里桥"
+                        },
+                        {
+                            "tird_level_name" : "六里桥东"
+                        },
+                        {
+                            "tird_level_name" : "北京西站"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "10号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全10号线"
+                        },
+                        {
+                            "tird_level_name" : "巴沟"
+                        },
+                        {
+                            "tird_level_name" : "苏州街"
+                        },
+                        {
+                            "tird_level_name" : "海淀黄庄"
+                        },
+                        {
+                            "tird_level_name" : "知春里"
+                        },
+                        {
+                            "tird_level_name" : "知春路"
+                        },
+                        {
+                            "tird_level_name" : "西土城"
+                        },
+                        {
+                            "tird_level_name" : "牡丹园"
+                        },
+                        {
+                            "tird_level_name" : "健德门"
+                        },
+                        {
+                            "tird_level_name" : "北土城"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "13号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全13号线"
+                        },
+                        {
+                            "tird_level_name" : "西直门"
+                        },
+                        {
+                            "tird_level_name" : "大钟寺"
+                        },
+                        {
+                            "tird_level_name" : "知春路"
+                        },
+                        {
+                            "tird_level_name" : "五道口"
+                        },
+                        {
+                            "tird_level_name" : "上地"
+                        },
+                        {
+                            "tird_level_name" : "西二旗"
+                        },
+                        {
+                            "tird_level_name" : "龙泽"
+                        },
+                        {
+                            "tird_level_name" : "回龙观"
+                        },
+                        {
+                            "tird_level_name" : "霍营"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "14号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全14号线"
+                        },
+                        {
+                            "tird_level_name" : "九龙山"
+                        },
+                        {
+                            "tird_level_name" : "来广营"
+                        },
+                        {
+                            "tird_level_name" : "东湖区"
+                        },
+                        {
+                            "tird_level_name" : "郭庄子"
+                        },
+                        {
+                            "tird_level_name" : "张郭庄"
+                        },
+                        {
+                            "tird_level_name" : "望京南"
+                        },
+                        {
+                            "tird_level_name" : "望京"
+                        },
+                        {
+                            "tird_level_name" : "西局"
+                        },
+                        {
+                            "tird_level_name" : "方庄"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "15号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全15号线"
+                        },
+                        {
+                            "tird_level_name" : "俸伯"
+                        },
+                        {
+                            "tird_level_name" : "顺义"
+                        },
+                        {
+                            "tird_level_name" : "石门"
+                        },
+                        {
+                            "tird_level_name" : "南法信"
+                        },
+                        {
+                            "tird_level_name" : "后沙峪"
+                        },
+                        {
+                            "tird_level_name" : "花梨坎"
+                        },
+                        {
+                            "tird_level_name" : "国展"
+                        },
+                        {
+                            "tird_level_name" : "孙河"
+                        },
+                        {
+                            "tird_level_name" : "马泉营"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "16号线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全16号线"
+                        },
+                        {
+                            "tird_level_name" : "北安河"
+                        },
+                        {
+                            "tird_level_name" : "温阳路"
+                        },
+                        {
+                            "tird_level_name" : "稻香湖路"
+                        },
+                        {
+                            "tird_level_name" : "屯佃"
+                        },
+                        {
+                            "tird_level_name" : "永丰"
+                        },
+                        {
+                            "tird_level_name" : "永丰南"
+                        },
+                        {
+                            "tird_level_name" : "西北旺"
+                        },
+                        {
+                            "tird_level_name" : "马连洼"
+                        },
+                        {
+                            "tird_level_name" : "西苑"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "八通线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全八通线"
+                        },
+                        {
+                            "tird_level_name" : "四惠"
+                        },
+                        {
+                            "tird_level_name" : "四惠东"
+                        },
+                        {
+                            "tird_level_name" : "高碑店"
+                        },
+                        {
+                            "tird_level_name" : "传媒大学"
+                        },
+                        {
+                            "tird_level_name" : "双桥"
+                        },
+                        {
+                            "tird_level_name" : "管庄"
+                        },
+                        {
+                            "tird_level_name" : "八里桥"
+                        },
+                        {
+                            "tird_level_name" : "通州北苑"
+                        },
+                        {
+                            "tird_level_name" : "果园"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "昌平线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全昌平线"
+                        },
+                        {
+                            "tird_level_name" : "昌平西山口"
+                        },
+                        {
+                            "tird_level_name" : "十三陵景区"
+                        },
+                        {
+                            "tird_level_name" : "昌平"
+                        },
+                        {
+                            "tird_level_name" : "昌平东关"
+                        },
+                        {
+                            "tird_level_name" : "北邵洼"
+                        },
+                        {
+                            "tird_level_name" : "南邵"
+                        },
+                        {
+                            "tird_level_name" : "沙河高教园"
+                        },
+                        {
+                            "tird_level_name" : "沙河"
+                        },
+                        {
+                            "tird_level_name" : "巩华城"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "房山线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全房山线"
+                        },
+                        {
+                            "tird_level_name" : "苏庄"
+                        },
+                        {
+                            "tird_level_name" : "良乡南关"
+                        },
+                        {
+                            "tird_level_name" : "良乡...城西"
+                        },
+                        {
+                            "tird_level_name" : "良乡大学城"
+                        },
+                        {
+                            "tird_level_name" : "良乡...城北"
+                        },
+                        {
+                            "tird_level_name" : "广阳城"
+                        },
+                        {
+                            "tird_level_name" : "篱笆房"
+                        },
+                        {
+                            "tird_level_name" : "长阳"
+                        },
+                        {
+                            "tird_level_name" : "稻田"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "机场线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全机场线"
+                        },
+                        {
+                            "tird_level_name" : "T3航站楼"
+                        },
+                        {
+                            "tird_level_name" : "T2航站楼"
+                        },
+                        {
+                            "tird_level_name" : "三元桥"
+                        },
+                        {
+                            "tird_level_name" : "东直门"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "亦庄线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全亦庄线"
+                        },
+                        {
+                            "tird_level_name" : "宋家庄"
+                        },
+                        {
+                            "tird_level_name" : "肖村"
+                        },
+                        {
+                            "tird_level_name" : "小红门"
+                        },
+                        {
+                            "tird_level_name" : "旧宫"
+                        },
+                        {
+                            "tird_level_name" : "亦庄桥"
+                        },
+                        {
+                            "tird_level_name" : "亦庄文化园"
+                        },
+                        {
+                            "tird_level_name" : "万源街"
+                        },
+                        {
+                            "tird_level_name" : "荣京东街"
+                        },
+                        {
+                            "tird_level_name" : "荣昌东街"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "S1线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全S1线"
+                        },
+                        {
+                            "tird_level_name" : "金安桥"
+                        },
+                        {
+                            "tird_level_name" : "四道桥"
+                        },
+                        {
+                            "tird_level_name" : "桥户营"
+                        },
+                        {
+                            "tird_level_name" : "上岸"
+                        },
+                        {
+                            "tird_level_name" : "栗园庄"
+                        },
+                        {
+                            "tird_level_name" : "小园"
+                        },
+                        {
+                            "tird_level_name" : "石厂"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "西郊线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全西郊线"
+                        },
+                        {
+                            "tird_level_name" : "巴沟"
+                        },
+                        {
+                            "tird_level_name" : "颐和园东门"
+                        },
+                        {
+                            "tird_level_name" : "茶棚"
+                        },
+                        {
+                            "tird_level_name" : "万安"
+                        },
+                        {
+                            "tird_level_name" : "植物园"
+                        },
+                        {
+                            "tird_level_name" : "香山"
+                        }
+                    ]
+                },
+                {
+                    "second_level_name" : "燕房线",
+                    "tird_level_list" : [
+                        {
+                            "tird_level_name" : "全燕房线"
+                        },
+                        {
+                            "tird_level_name" : "阎村东"
+                        },
+                        {
+                            "tird_level_name" : "紫草坞"
+                        },
+                        {
+                            "tird_level_name" : "阎村"
+                        },
+                        {
+                            "tird_level_name" : "星城"
+                        },
+                        {
+                            "tird_level_name" : "大石河东"
+                        },
+                        {
+                            "tird_level_name" : "马各庄"
+                        },
+                        {
+                            "tird_level_name" : "饶乐府"
+                        },
+                        {
+                            "tird_level_name" : "房山城关"
+                        },
+                        {
+                            "tird_level_name" : "燕山"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
