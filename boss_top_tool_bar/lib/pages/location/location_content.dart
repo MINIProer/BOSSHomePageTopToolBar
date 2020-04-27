@@ -34,7 +34,7 @@ class _JRLocationContentState extends State<JRLocationContent> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            JRCommonNavBar(firstLevelVM),
+            JRCommonNavBar(firstLevelViewModel: firstLevelVM, type: JRCommonNavBarType.area,),
             buildContentDetailContainer(firstLevelVM),
             JRCommonBottomToolBar()
           ],

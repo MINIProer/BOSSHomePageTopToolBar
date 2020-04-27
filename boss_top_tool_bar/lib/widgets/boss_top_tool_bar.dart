@@ -1,4 +1,5 @@
 import 'package:boss_top_tool_bar/pages/location/location.dart';
+import 'package:boss_top_tool_bar/pages/screen/screen.dart';
 import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
 import 'package:flutter/material.dart';
 
@@ -84,8 +85,9 @@ class JRBossTopToolBar extends StatelessWidget {
                       type: JRRightActionButtonType.keyword);
                 }
                 if (index == 2) {
-                  return JRRightActionButton(firstLevelVM, () {},
-                      type: JRRightActionButtonType.screen);
+                  return JRRightActionButton(firstLevelVM, () {
+                    Navigator.of(context).pushNamed(JRScreenPage.routeName);
+                  }, type: JRRightActionButtonType.screen);
                 }
                 if (index == 4) {
                   return JRRightActionButton(firstLevelVM, () {
