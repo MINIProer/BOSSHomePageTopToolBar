@@ -79,15 +79,15 @@ class JRBossTopToolBar extends StatelessWidget {
             itemCount: 5,
             itemBuilder: (context, index) {
               if (index == 0) {
-                return buildRightActionButton('关键词', null);
+                return buildRightActionButton1('关键词', null);
               }
               if (index == 2) {
-                return buildRightActionButton('筛选', null);
+                return buildRightActionButton2('筛选', null);
               }
               if (index == 4) {
                 return Consumer<JRFirstLevelViewModel>(
                     builder: (context, firstLevelVM, child) {
-                  return buildRightActionButton(firstLevelVM.selectAreaString, () {
+                  return buildRightActionButton3(firstLevelVM, () {
                     Navigator.of(context).pushNamed(JRLocationPage.routeName);
                   });
                 });
@@ -100,7 +100,7 @@ class JRBossTopToolBar extends StatelessWidget {
     );
   }
 
-  Widget buildRightActionButton(String title, Function onTap) {
+  Widget buildRightActionButton1(String title, Function onTap) {
     return GestureDetector(
       child: Container(
         height: 30.px,
@@ -118,7 +118,7 @@ class JRBossTopToolBar extends StatelessWidget {
             ),
             Padding(
                 padding: EdgeInsets.fromLTRB(0, 5.px, 0, 0.px),
-                child: buildArrowUI()),
+                child: buildArrowUI(null)),
           ],
         ),
       ),
@@ -126,10 +126,62 @@ class JRBossTopToolBar extends StatelessWidget {
     );
   }
 
-  Widget buildArrowUI() {
+  Widget buildRightActionButton2(String title, Function onTap) {
+    return GestureDetector(
+      child: Container(
+        height: 30.px,
+        decoration: BoxDecoration(
+            color: Color.fromRGBO(247, 247, 247, 1),
+            borderRadius: BorderRadius.circular(1.px)),
+        child: Row(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(8.px, 0, 0, 0),
+              child: Text(title,
+                  style: TextStyle(
+                      fontSize: 12.px,
+                      color: Color.fromRGBO(121, 121, 121, 1))),
+            ),
+            Padding(
+                padding: EdgeInsets.fromLTRB(0, 5.px, 0, 0.px),
+                child: buildArrowUI(null)),
+          ],
+        ),
+      ),
+      onTap: onTap,
+    );
+  }
+
+  Widget buildRightActionButton3(JRFirstLevelViewModel firstLevelViewModel, Function onTap) {
+    return GestureDetector(
+      child: Container(
+        height: 30.px,
+        decoration: BoxDecoration(
+            color: firstLevelViewModel.shouldAreaActionButtonColorBecomActive() ? Color.fromRGBO(233, 248, 245, 1) : Color.fromRGBO(247, 247, 247, 1),
+            borderRadius: BorderRadius.circular(1.px)),
+        child: Row(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(8.px, 0, 0, 0),
+              child: Text(firstLevelViewModel.selectAreaString,
+                  style: TextStyle(
+                      fontSize: 12.px,
+                      color: firstLevelViewModel.shouldAreaActionButtonColorBecomActive() ? Color.fromRGBO(100, 190, 184, 1) : Color.fromRGBO(121, 121, 121, 1))),
+            ),
+            Padding(
+                padding: EdgeInsets.fromLTRB(0, 5.px, 0, 0.px),
+                child: buildArrowUI(firstLevelViewModel)),
+          ],
+        ),
+      ),
+      onTap: onTap,
+    );
+  }
+
+  Widget buildArrowUI(JRFirstLevelViewModel firstLevelViewModel) {
     return Transform.rotate(
       angle: pi / 4,
-      child: Icon(Icons.arrow_right, color: Color.fromRGBO(197, 197, 197, 1)),
+      child: Icon(Icons.arrow_right, color: firstLevelViewModel == null ? Color.fromRGBO(197, 197, 197, 1) : firstLevelViewModel.shouldAreaActionButtonColorBecomActive() ? Color.fromRGBO(100, 190, 184, 1) : Color.fromRGBO(197, 197, 197, 1)),
     );
   }
 

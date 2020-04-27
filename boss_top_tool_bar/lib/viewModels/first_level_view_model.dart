@@ -83,16 +83,6 @@ class JRFirstLevelViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  List<String> _confirmThirdSelectLevelModelList;
-  List<String> get confirmThirdSelectLevelModelList {
-    return _confirmThirdSelectLevelModelList;
-  }
-
-  List<String> confirmRealSelectedAreaData(List<String> selectLevelModelList) {
-    _confirmThirdSelectLevelModelList = selectThirdLevelModellist;
-    return _confirmThirdSelectLevelModelList;
-  }
-
   bool isSelectThirdLevelModelListContain(JRThirdLevelModel thirdLevelModel) {
     return _selectThirdLevelModellist.contains(thirdLevelModel.tird_level_name);
   }
@@ -104,6 +94,12 @@ class JRFirstLevelViewModel extends ChangeNotifier {
       return true;
     }
     return false;
+  }
+
+  bool shouldAreaActionButtonColorBecomActive() {
+    return (this.selectThirdLevelModellist.contains('全北京') == false ||
+        (this.selectFirstLevelName == '地铁' &&
+            this.selectThirdLevelModellist.contains('全北京') == true));
   }
 
   void removeAllExceptDefaultSelect() {
