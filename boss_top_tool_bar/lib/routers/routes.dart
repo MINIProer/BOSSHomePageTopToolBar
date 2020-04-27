@@ -1,4 +1,5 @@
 import 'package:boss_top_tool_bar/pages/home/home.dart';
+import 'package:boss_top_tool_bar/pages/keyword/keyword.dart';
 import 'package:boss_top_tool_bar/pages/location/location.dart';
 import 'package:boss_top_tool_bar/pages/screen/screen.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,13 @@ class JRRouter {
       return MaterialPageRoute(
           builder: (ctx) {
             return JRScreenPage();
+          },
+          fullscreenDialog: true);
+    } else if (setttings.name == JRKeywordPage.routeName) {
+      // modal方式弹出页面
+      return MaterialPageRoute(
+          builder: (ctx) {
+            return JRKeywordPage();
           },
           fullscreenDialog: true);
     }

@@ -1,3 +1,4 @@
+import 'package:boss_top_tool_bar/pages/keyword/keyword.dart';
 import 'package:boss_top_tool_bar/pages/location/location.dart';
 import 'package:boss_top_tool_bar/pages/screen/screen.dart';
 import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
@@ -81,7 +82,9 @@ class JRBossTopToolBar extends StatelessWidget {
               itemCount: 5,
               itemBuilder: (context, index) {
                 if (index == 0) {
-                  return JRRightActionButton(firstLevelVM, () {},
+                  return JRRightActionButton(firstLevelVM, () {
+                    Navigator.of(context).pushNamed(JRKeywordPage.routeName);
+                  },
                       type: JRRightActionButtonType.keyword);
                 }
                 if (index == 2) {
