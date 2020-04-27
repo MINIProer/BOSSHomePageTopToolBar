@@ -66,7 +66,9 @@ class JRCommonNavBar extends StatelessWidget {
               color: Color.fromRGBO(52, 52, 52, 1),
             ),
             onTap: () {
-              firstLevelVM.clearAllStatus();
+              if (firstLevelVM.confirmThirdSelectLevelModelList.length == 0) {
+                firstLevelVM.clearAllStatus();
+              }
               Navigator.of(context).pop();
             },
           );

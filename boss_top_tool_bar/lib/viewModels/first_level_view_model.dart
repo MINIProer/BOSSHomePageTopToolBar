@@ -27,7 +27,11 @@ class JRFirstLevelViewModel extends ChangeNotifier {
 
   String _selectAreaString;
   String get selectAreaString {
-    return (_selectThirdLevelModellist.length > 0 && _selectThirdLevelModellist.contains(defaultSelectThirdLevelName) == false) ? '${this.selectSecondLevelName}·${_selectThirdLevelModellist.length}' : '北京';
+    return (_selectThirdLevelModellist.length > 0 &&
+            _selectThirdLevelModellist.contains(defaultSelectThirdLevelName) ==
+                false)
+        ? '${this.selectSecondLevelName}·${_selectThirdLevelModellist.length}'
+        : '北京';
   }
 
   String _selectFirstLevelName;
@@ -77,6 +81,16 @@ class JRFirstLevelViewModel extends ChangeNotifier {
   void removeFromSelectThirdLeveModelList(JRThirdLevelModel thirdLevelModel) {
     _selectThirdLevelModellist.remove(thirdLevelModel.tird_level_name);
     notifyListeners();
+  }
+
+  List<String> _confirmThirdSelectLevelModelList;
+  List<String> get confirmThirdSelectLevelModelList {
+    return _confirmThirdSelectLevelModelList;
+  }
+
+  List<String> confirmRealSelectedAreaData(List<String> selectLevelModelList) {
+    _confirmThirdSelectLevelModelList = selectThirdLevelModellist;
+    return _confirmThirdSelectLevelModelList;
   }
 
   bool isSelectThirdLevelModelListContain(JRThirdLevelModel thirdLevelModel) {

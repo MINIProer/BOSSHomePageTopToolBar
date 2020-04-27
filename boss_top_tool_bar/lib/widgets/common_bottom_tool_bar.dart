@@ -108,6 +108,8 @@ class JRCommonBottomToolBar extends StatelessWidget {
             onTap: () {
               print(
                   'selct = ${firstLevelVM.selectSecondLevelName} + ${firstLevelVM.selectThirdLevelModellist}');
+              firstLevelVM.confirmRealSelectedAreaData(
+                  firstLevelVM.selectThirdLevelModellist);
               Navigator.of(context).pop();
             },
           );
