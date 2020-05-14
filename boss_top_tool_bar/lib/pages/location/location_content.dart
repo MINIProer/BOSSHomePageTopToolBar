@@ -7,7 +7,6 @@ import 'package:boss_top_tool_bar/tools/screen_fit_tool.dart';
 import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
 import 'package:boss_top_tool_bar/widgets/common_bottom_tool_bar.dart';
 import 'package:boss_top_tool_bar/widgets/common_nav_bar.dart';
-import 'package:boss_top_tool_bar/extensions/int_extension.dart';
 import 'package:boss_top_tool_bar/widgets/first_level_Item.dart';
 import 'package:boss_top_tool_bar/widgets/second_level_item.dart';
 import 'package:boss_top_tool_bar/widgets/third_level_item.dart';
@@ -36,7 +35,15 @@ class _JRLocationContentState extends State<JRLocationContent> {
           children: <Widget>[
             JRCommonNavBar(firstLevelViewModel: firstLevelVM, type: JRCommonNavBarType.area,),
             buildContentDetailContainer(firstLevelVM),
-            JRCommonBottomToolBar()
+            JRCommonBottomToolBar(
+              clearAction: () {
+                firstLevelVM.clearCurrentFirstLevelStatus();
+              },
+              confirmAction: () {
+                print('selct = ${firstLevelVM.selectSecondLevelName} + ${firstLevelVM.selectThirdLevelModellist}');
+                Navigator.of(context).pop();
+              },
+            )
           ],
         ),
       );
@@ -50,8 +57,8 @@ class _JRLocationContentState extends State<JRLocationContent> {
           JRScreenFitTool.statusBarHeight -
           JRScreenFitTool.navBarHeight -
           (JRScreenFitTool.statusBarHeight == 44
-              ? (34.px + 64.px + 1.px)
-              : (64.px + 1.px)),
+              ? (JRScreenFitTool.setPx(34) + JRScreenFitTool.setPx(64) + JRScreenFitTool.setPx(1))
+              : (JRScreenFitTool.setPx(64) + JRScreenFitTool.setPx(1))),
       color: Colors.white,
       child: Row(
         children: <Widget>[
@@ -68,11 +75,11 @@ class _JRLocationContentState extends State<JRLocationContent> {
     return Consumer<JRFirstLevelViewModel>(
         builder: (context, firstLevelVM, child) {
       return Container(
-        width: 100.px,
+        width: JRScreenFitTool.setPx(100),
         height: double.infinity,
         color: Color.fromRGBO(247, 247, 247, 1),
         child: ListView.builder(
-            padding: EdgeInsets.only(top: 15.px),
+            padding: EdgeInsets.only(top: JRScreenFitTool.setPx(15)),
             itemCount: firstLevelVM.firstLevelModelList.length,
             itemBuilder: (context, index) {
               JRFirstLevelModel m = firstLevelVM.firstLevelModelList[index];
@@ -86,11 +93,11 @@ class _JRLocationContentState extends State<JRLocationContent> {
     List<JRSecondLevelModel> secondLevelModelList = firstLevelViewModel
           .fetchsecondLevelModelList(firstLevelViewModel.selectFirstLevelName);
     return Container(
-        width: (JRScreenFitTool.screenWidth - 101.px) / 2,
+        width: (JRScreenFitTool.screenWidth - JRScreenFitTool.setPx(101)) / 2,
         height: double.infinity,
         color: Colors.white,
         child: ListView.builder(
-            padding: EdgeInsets.only(top: 15.px),
+            padding: EdgeInsets.only(top: JRScreenFitTool.setPx(15)),
             itemCount: secondLevelModelList.length,
             itemBuilder: (context, index) {
               JRSecondLevelModel secondLevelModel = secondLevelModelList[index];
@@ -101,7 +108,7 @@ class _JRLocationContentState extends State<JRLocationContent> {
 
   Widget buildMiddleSeperatorLine() {
     return Container(
-      width: 1.px,
+      width: JRScreenFitTool.setPx(1),
       height: double.infinity,
       color: Color.fromRGBO(230, 230, 230, .5),
     );
@@ -111,11 +118,11 @@ class _JRLocationContentState extends State<JRLocationContent> {
     List<JRThirdLevelModel> thirdLevelModelList = firstLevelViewModel
           .fetchthirdLeveelModelList(firstLevelViewModel.selectSecondLevelName);
     return Container(
-        width: (JRScreenFitTool.screenWidth - 101.px) / 2,
+        width: (JRScreenFitTool.screenWidth - JRScreenFitTool.setPx(101)) / 2,
         height: double.infinity,
         color: Colors.white,
         child: ListView.builder(
-            padding: EdgeInsets.only(top: 15.px),
+            padding: EdgeInsets.only(top: JRScreenFitTool.setPx(15)),
             itemCount: thirdLevelModelList.length,
             itemBuilder: (context, index) {
               JRThirdLevelModel thirdLevelModel = thirdLevelModelList[index];

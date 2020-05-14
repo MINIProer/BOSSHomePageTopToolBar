@@ -1,0 +1,442 @@
+{
+    "k_first_level_list" : [
+        {
+            "k_first_level_name" : "开发语言",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "Swift",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Objective-C",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "C/C++",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Java",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "JavaScript",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Python",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "PHP",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : ".NET",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "C#",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "SQL",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Shell",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Lua",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "R",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Golang",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Visual Basic",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "TypeScript",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Delhpi",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "MATLAB",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Kotlin",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Erlang",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Perl",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "VBA",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Haskell",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Scala",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "D",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Julia",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Assembly Language",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Liso",
+                    "type" : "开发语言"
+                },
+                {
+                    "k_second_level_name" : "Groovy",
+                    "type" : "开发语言"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS开发方向",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "SDK",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "即时通讯",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "多线程",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "内存管理",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "音视频",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "数据结构",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "性能调优",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "网络通信",
+                    "type" : "iOS开发方向"
+                },
+                {
+                    "k_second_level_name" : "算法",
+                    "type" : "iOS开发方向"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS开发语言",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "Swift",
+                    "type" : "iOS开发语言"
+                },
+                {
+                    "k_second_level_name" : "Objective-C",
+                    "type" : "iOS开发语言"
+                },
+                {
+                    "k_second_level_name" : "C++/C",
+                    "type" : "iOS开发语言"
+                },
+                {
+                    "k_second_level_name" : "JavaScript",
+                    "type" : "iOS开发语言"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS开发项目",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "电商",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "游戏",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "社交通讯",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "智能家居",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "教育",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "文档阅读",
+                    "type" : "iOS开发项目"
+                },
+                {
+                    "k_second_level_name" : "直播",
+                    "type" : "iOS开发项目"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS设计模式",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "MVC",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "MVVM",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "工厂模式",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "通知",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "代理",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "命令模式",
+                    "type" : "iOS设计模式"
+                },
+                {
+                    "k_second_level_name" : "KVO",
+                    "type" : "iOS设计模式"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS开源项目",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "JSPatch",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "Masonry",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "React Native",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "SwiftyJSON",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "SDWebImage",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "AFNetworking",
+                    "type" : "iOS开源项目"
+                },
+                {
+                    "k_second_level_name" : "Alamofire",
+                    "type" : "iOS开源项目"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS常用库架构",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "SQLite",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "WebView",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "AutoLayout",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "Cocoa",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "Hybrid",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "Cordova",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "OpenGL",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "Cocos2d",
+                    "type" : "iOS常用库架构"
+                },
+                {
+                    "k_second_level_name" : "Unity3d",
+                    "type" : "iOS常用库架构"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS IDE",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "Xcode",
+                    "type" : "iOS IDE"
+                },
+                {
+                    "k_second_level_name" : "AppCode",
+                    "type" : "iOS IDE"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "iOS数据统计",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "友盟",
+                    "type" : "iOS数据统计"
+                },
+                {
+                    "k_second_level_name" : "MTA",
+                    "type" : "iOS数据统计"
+                },
+                {
+                    "k_second_level_name" : "Flurry",
+                    "type" : "iOS数据统计"
+                },
+                {
+                    "k_second_level_name" : "GoogleAnalytics",
+                    "type" : "iOS数据统计"
+                },
+                {
+                    "k_second_level_name" : "AppAnnie",
+                    "type" : "iOS数据统计"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "目标操作系统",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "Linux命令",
+                    "type" : "目标操作系统"
+                },
+                {
+                    "k_second_level_name" : "MacOSX",
+                    "type" : "目标操作系统"
+                }
+            ]
+        },
+        {
+            "k_first_level_name" : "推荐关键词",
+            "k_check_single" : false,
+            "k_second_level_list" : [
+                {
+                    "k_second_level_name" : "第三方sdk",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "IM",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "支付SDK",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "内购",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "百度地图",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "编码规范",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "支付宝",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "技术分享",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "Fabric",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "人脸识别",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "音乐播放",
+                    "type" : "推荐关键词"
+                },
+                {
+                    "k_second_level_name" : "ajax请求",
+                    "type" : "推荐关键词"
+                }
+            ]
+        }
+    ]
+}

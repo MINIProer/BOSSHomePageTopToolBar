@@ -1,9 +1,10 @@
 import 'dart:math';
 
+import 'package:boss_top_tool_bar/tools/screen_fit_tool.dart';
 import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
+import 'package:boss_top_tool_bar/viewModels/k_first_level_view_model.dart';
+import 'package:boss_top_tool_bar/viewModels/s_first_level_view_model.dart';
 import 'package:flutter/material.dart';
-
-import 'package:boss_top_tool_bar/extensions/int_extension.dart';
 
 enum JRRightActionButtonType {
   area, // 区域
@@ -13,29 +14,36 @@ enum JRRightActionButtonType {
 
 class JRRightActionButton extends StatelessWidget {
   final JRFirstLevelViewModel _firstLevelViewModel;
+  final JRScreenFirstLevelViewModel screenFirstLevelViewModel;
+  final JRKeywordFirstLevelViewModel keywordFirstLevelViewModel;
   final JRRightActionButtonType type;
   final Function _ontap;
 
   JRRightActionButton(this._firstLevelViewModel, this._ontap,
-      {JRRightActionButtonType type})
+      {JRRightActionButtonType type,
+      this.screenFirstLevelViewModel,
+      this.keywordFirstLevelViewModel})
       : this.type = type ?? JRRightActionButtonType.area;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Container(
-        height: 30.px,
+        height: JRScreenFitTool.setPx(30),
         decoration: BoxDecoration(
             color: setContainerColor(this.type),
-            borderRadius: BorderRadius.circular(1.px)),
+            borderRadius: BorderRadius.circular(JRScreenFitTool.setPx(1))),
         child: Row(
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.fromLTRB(8.px, 0, 0, 0),
-              child: Text(setButtonTitle(this.type), style: TextStyle(fontSize: 12.px, color: setButtonTitleColor(this.type))),
+              padding: EdgeInsets.fromLTRB(JRScreenFitTool.setPx(8), 0, 0, 0),
+              child: Text(setButtonTitle(this.type),
+                  style: TextStyle(
+                      fontSize: JRScreenFitTool.setPx(12),
+                      color: setButtonTitleColor(this.type))),
             ),
             Padding(
-                padding: EdgeInsets.fromLTRB(0, 5.px, 0, 0.px),
+                padding: EdgeInsets.fromLTRB(0, JRScreenFitTool.setPx(5), 0, 0),
                 child: buildArrowUI()),
           ],
         ),
@@ -63,12 +71,16 @@ class JRRightActionButton extends StatelessWidget {
         break;
       case JRRightActionButtonType.screen:
         {
-          return Color.fromRGBO(247, 247, 247, 1);
+          return this.screenFirstLevelViewModel.shouldNavBarShowRichText()
+              ? Color.fromRGBO(233, 248, 245, 1)
+              : Color.fromRGBO(247, 247, 247, 1);
         }
         break;
       case JRRightActionButtonType.keyword:
         {
-          return Color.fromRGBO(247, 247, 247, 1);
+          return this.keywordFirstLevelViewModel.mapList.length > 0
+              ? Color.fromRGBO(233, 248, 245, 1)
+              : Color.fromRGBO(247, 247, 247, 1);
         }
         break;
       default:
@@ -87,12 +99,12 @@ class JRRightActionButton extends StatelessWidget {
         break;
       case JRRightActionButtonType.screen:
         {
-          return '筛选';
+          return this.screenFirstLevelViewModel.selectScreenString();
         }
         break;
       case JRRightActionButtonType.keyword:
         {
-          return '关键词';
+          return this.keywordFirstLevelViewModel.selectKeywordString();
         }
         break;
       default:
@@ -103,20 +115,26 @@ class JRRightActionButton extends StatelessWidget {
   }
 
   Color setButtonTitleColor(JRRightActionButtonType type) {
-     switch (type) {
+    switch (type) {
       case JRRightActionButtonType.area:
         {
-          return  _firstLevelViewModel.shouldAreaActionButtonColorBecomActive() ? Color.fromRGBO(100, 190, 184, 1) : Color.fromRGBO(121, 121, 121, 1);
+          return _firstLevelViewModel.shouldAreaActionButtonColorBecomActive()
+              ? Color.fromRGBO(100, 190, 184, 1)
+              : Color.fromRGBO(121, 121, 121, 1);
         }
         break;
       case JRRightActionButtonType.screen:
         {
-          return Color.fromRGBO(121, 121, 121, 1);
+          return this.screenFirstLevelViewModel.shouldNavBarShowRichText()
+              ? Color.fromRGBO(100, 190, 184, 1)
+              : Color.fromRGBO(121, 121, 121, 1);
         }
         break;
       case JRRightActionButtonType.keyword:
         {
-          return Color.fromRGBO(121, 121, 121, 1);
+          return this.keywordFirstLevelViewModel.mapList.length > 0
+              ? Color.fromRGBO(100, 190, 184, 1)
+              : Color.fromRGBO(121, 121, 121, 1);
         }
         break;
       default:
@@ -130,7 +148,7 @@ class JRRightActionButton extends StatelessWidget {
     switch (type) {
       case JRRightActionButtonType.area:
         {
-          return  _firstLevelViewModel == null
+          return _firstLevelViewModel == null
               ? Color.fromRGBO(197, 197, 197, 1)
               : _firstLevelViewModel.shouldAreaActionButtonColorBecomActive()
                   ? Color.fromRGBO(100, 190, 184, 1)
@@ -139,12 +157,16 @@ class JRRightActionButton extends StatelessWidget {
         break;
       case JRRightActionButtonType.screen:
         {
-          return Color.fromRGBO(197, 197, 197, 1);
+          return this.screenFirstLevelViewModel.shouldNavBarShowRichText()
+              ? Color.fromRGBO(100, 190, 184, 1)
+              : Color.fromRGBO(197, 197, 197, 1);
         }
         break;
       case JRRightActionButtonType.keyword:
         {
-          return Color.fromRGBO(197, 197, 197, 1);
+          return this.keywordFirstLevelViewModel.mapList.length > 0
+              ? Color.fromRGBO(100, 190, 184, 1)
+              : Color.fromRGBO(197, 197, 197, 1);
         }
         break;
       default:

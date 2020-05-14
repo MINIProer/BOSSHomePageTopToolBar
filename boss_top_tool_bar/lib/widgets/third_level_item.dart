@@ -1,7 +1,7 @@
 import 'package:boss_top_tool_bar/models/third_level_model.dart';
+import 'package:boss_top_tool_bar/tools/screen_fit_tool.dart';
 import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:boss_top_tool_bar/extensions/int_extension.dart';
 import 'package:provider/provider.dart';
 import 'package:toast/toast.dart';
 
@@ -17,10 +17,10 @@ class JRThirdLevelItem extends StatelessWidget {
         builder: (context, firstLevelVM, child) {
       return GestureDetector(
         child: Container(
-            width: 100.px,
-            height: 45.px,
+            width: JRScreenFitTool.setPx(100),
+            height: JRScreenFitTool.setPx(45),
             alignment: Alignment.topLeft,
-            padding: EdgeInsets.fromLTRB(15.px, 0, 15.px, 0),
+            padding: EdgeInsets.fromLTRB(JRScreenFitTool.setPx(15), 0, JRScreenFitTool.setPx(15), 0),
             child: firstLevelVM
                     .isSelectThirdLevelModelListContain(_thirdLevelModel)
                 ? Row(
@@ -32,10 +32,10 @@ class JRThirdLevelItem extends StatelessWidget {
                                 _thirdLevelModel)
                             ? TextStyle(
                                 color: Color.fromRGBO(100, 190, 184, 1),
-                                fontSize: 15.px)
+                                fontSize: JRScreenFitTool.setPx(15))
                             : TextStyle(
                                 color: Color.fromRGBO(54, 54, 54, 1),
-                                fontSize: 15.px),
+                                fontSize: JRScreenFitTool.setPx(15)),
                       ),
                       Icon(Icons.done, color: Color.fromRGBO(100, 190, 184, 1))
                     ],
@@ -46,10 +46,10 @@ class JRThirdLevelItem extends StatelessWidget {
                             _thirdLevelModel)
                         ? TextStyle(
                             color: Color.fromRGBO(100, 190, 184, 1),
-                            fontSize: 15.px)
+                            fontSize: JRScreenFitTool.setPx(15))
                         : TextStyle(
                             color: Color.fromRGBO(54, 54, 54, 1),
-                            fontSize: 15.px),
+                            fontSize: JRScreenFitTool.setPx(15)),
                   )),
         onTap: () {
           firstLevelVM.setSelectThirdLevelName =

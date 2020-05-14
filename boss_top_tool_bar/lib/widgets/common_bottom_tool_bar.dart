@@ -1,10 +1,12 @@
 import 'package:boss_top_tool_bar/tools/screen_fit_tool.dart';
-import 'package:boss_top_tool_bar/extensions/int_extension.dart';
-import 'package:boss_top_tool_bar/viewModels/first_level_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class JRCommonBottomToolBar extends StatelessWidget {
+  final Function clearAction;
+  final Function confirmAction;
+
+  JRCommonBottomToolBar({this.clearAction, this.confirmAction});
+
   @override
   Widget build(BuildContext context) {
     return buildBottomToolBarContainer();
@@ -14,8 +16,8 @@ class JRCommonBottomToolBar extends StatelessWidget {
     return Container(
       width: JRScreenFitTool.screenWidth,
       height: JRScreenFitTool.statusBarHeight == 44
-          ? (34.px + 64.px + 1.px)
-          : (64.px + 1.px),
+          ? (JRScreenFitTool.setPx(34) + JRScreenFitTool.setPx(64) + JRScreenFitTool.setPx(1))
+          : (JRScreenFitTool.setPx(64) + JRScreenFitTool.setPx(1)),
       color: Colors.white,
       child: buildChild(),
     );
@@ -27,19 +29,19 @@ class JRCommonBottomToolBar extends StatelessWidget {
         children: <Widget>[
           Container(
             width: JRScreenFitTool.screenWidth,
-            height: 1.px,
+            height: JRScreenFitTool.setPx(1),
             color: Color.fromRGBO(230, 230, 230, .5),
           ),
           Container(
             width: JRScreenFitTool.screenWidth,
-            height: 64.px,
+            height: JRScreenFitTool.setPx(64),
             alignment: Alignment.center,
             color: Colors.white,
             child: buildToolBarActionButtons(),
           ),
           Container(
             width: JRScreenFitTool.screenWidth,
-            height: 34.px,
+            height: JRScreenFitTool.setPx(34),
             color: Colors.white,
           )
         ],
@@ -49,12 +51,12 @@ class JRCommonBottomToolBar extends StatelessWidget {
       children: <Widget>[
         Container(
           width: JRScreenFitTool.screenWidth,
-          height: 1.px,
+          height: JRScreenFitTool.setPx(1),
           color: Color.fromRGBO(230, 230, 230, 1),
         ),
         Container(
           width: JRScreenFitTool.screenWidth,
-          height: 64.px,
+          height: JRScreenFitTool.setPx(64),
           alignment: Alignment.center,
           color: Colors.white,
           child: buildToolBarActionButtons(),
@@ -67,52 +69,40 @@ class JRCommonBottomToolBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
-        SizedBox(width: 15.px),
+        SizedBox(width: JRScreenFitTool.setPx(15)),
         Container(
-          width: 120.px,
-          height: 40.px,
+          width: JRScreenFitTool.setPx(120),
+          height: JRScreenFitTool.setPx(40),
           alignment: Alignment.center,
           decoration: BoxDecoration(
               color: Color.fromRGBO(247, 247, 247, 1),
-              borderRadius: BorderRadius.circular(3.px)),
-          child: Consumer<JRFirstLevelViewModel>(
-              builder: (context, firstLevelVM, child) {
-            return GestureDetector(
-              child: Text('清除',
-                  style: TextStyle(
-                      fontSize: 16.px,
-                      fontWeight: FontWeight.w600,
-                      color: Color.fromRGBO(103, 103, 103, 1))),
-              onTap: () {
-                firstLevelVM.clearCurrentFirstLevelStatus();
-              },
-            );
-          }),
+              borderRadius: BorderRadius.circular(JRScreenFitTool.setPx(3))),
+          child: GestureDetector(
+            child: Text('清除',
+                style: TextStyle(
+                    fontSize: JRScreenFitTool.setPx(16),
+                    fontWeight: FontWeight.w600,
+                    color: Color.fromRGBO(103, 103, 103, 1))),
+            onTap: this.clearAction,
+          )
         ),
-        SizedBox(width: 10.px),
-        Expanded(child: Consumer<JRFirstLevelViewModel>(
-            builder: (context, firstLevelVM, child) {
-          return GestureDetector(
+        SizedBox(width: JRScreenFitTool.setPx(10)),
+        Expanded(child: GestureDetector(
             child: Container(
-              height: 40.px,
+              height: JRScreenFitTool.setPx(40),
               alignment: Alignment.center,
               decoration: BoxDecoration(
                   color: Color.fromRGBO(100, 190, 184, 1),
-                  borderRadius: BorderRadius.circular(3.px)),
+                  borderRadius: BorderRadius.circular(JRScreenFitTool.setPx(3))),
               child: Text('确定',
                   style: TextStyle(
-                      fontSize: 16.px,
+                      fontSize: JRScreenFitTool.setPx(16),
                       fontWeight: FontWeight.w600,
                       color: Colors.white)),
             ),
-            onTap: () {
-              print(
-                  'selct = ${firstLevelVM.selectSecondLevelName} + ${firstLevelVM.selectThirdLevelModellist}');
-              Navigator.of(context).pop();
-            },
-          );
-        })),
-        SizedBox(width: 15.px),
+            onTap: confirmAction,
+          )),
+        SizedBox(width: JRScreenFitTool.setPx(15)),
       ],
     );
   }

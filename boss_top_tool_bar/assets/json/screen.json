@@ -1,0 +1,247 @@
+{
+    "s_first_level_list" : [
+        {
+            "s_first_level_name" : "学历要求",
+            "s_check_single" : false,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "初中及以下"
+                },
+                {
+                    "s_second_level_name" : "中专/中技"
+                },
+                {
+                    "s_second_level_name" : "高中"
+                },
+                {
+                    "s_second_level_name" : "大专"
+                },
+                {
+                    "s_second_level_name" : "本科"
+                },
+                {
+                    "s_second_level_name" : "硕士"
+                },
+                {
+                    "s_second_level_name" : "博士"
+                }
+            ]
+        },
+        {
+            "s_first_level_name" : "薪资待遇",
+            "s_check_single" : true,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "3k以下"
+                },
+                {
+                    "s_second_level_name" : "3-5k"
+                },
+                {
+                    "s_second_level_name" : "5-10k"
+                },
+                {
+                    "s_second_level_name" : "10-20k"
+                },
+                {
+                    "s_second_level_name" : "20-50k"
+                },
+                {
+                    "s_second_level_name" : "50k以上"
+                }
+            ]
+        },
+        {
+            "s_first_level_name" : "经验要求",
+            "s_check_single" : false,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "在校生"
+                },
+                {
+                    "s_second_level_name" : "应届生"
+                },
+                {
+                    "s_second_level_name" : "1年以内"
+                },
+                {
+                    "s_second_level_name" : "1-3年"
+                },
+                {
+                    "s_second_level_name" : "3-5年"
+                },
+                {
+                    "s_second_level_name" : "5-10年"
+                },
+                {
+                    "s_second_level_name" : "10年以上"
+                }
+            ]
+        },
+        {
+            "s_first_level_name" : "行业分类",
+            "s_check_single" : false,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "电子商务"
+                },
+                {
+                    "s_second_level_name" : "游戏"
+                },
+                {
+                    "s_second_level_name" : "媒体"
+                },
+                {
+                    "s_second_level_name" : "广告营销"
+                },
+                {
+                    "s_second_level_name" : "数据服务"
+                },
+                {
+                    "s_second_level_name" : "医疗健康"
+                },
+                {
+                    "s_second_level_name" : "生活服务"
+                },
+                {
+                    "s_second_level_name" : "O2O"
+                },
+                {
+                    "s_second_level_name" : "旅游"
+                },
+                {
+                    "s_second_level_name" : "分类信息"
+                },
+                {
+                    "s_second_level_name" : "音乐/视频/阅读"
+                },
+                {
+                    "s_second_level_name" : "在线教育"
+                },
+                {
+                    "s_second_level_name" : "社交网络"
+                },
+                {
+                    "s_second_level_name" : "人力资源服务"
+                },
+                {
+                    "s_second_level_name" : "企业服务"
+                },
+                {
+                    "s_second_level_name" : "信息安全"
+                },
+                {
+                    "s_second_level_name" : "智能硬件"
+                },
+                {
+                    "s_second_level_name" : "移动互联网"
+                },
+                {
+                    "s_second_level_name" : "互联网"
+                },
+                {
+                    "s_second_level_name" : "计算机软件"
+                },
+                {
+                    "s_second_level_name" : "通讯/网络设备"
+                },
+                {
+                    "s_second_level_name" : "广告/公关/会展"
+                },
+                {
+                    "s_second_level_name" : "互联网金融"
+                },
+                {
+                    "s_second_level_name" : "物流/仓储"
+                },
+                {
+                    "s_second_level_name" : "贸易/进出口"
+                },
+                {
+                    "s_second_level_name" : "咨询"
+                },
+                {
+                    "s_second_level_name" : "工程施工"
+                },
+                {
+                    "s_second_level_name" : "汽车生产"
+                },
+                {
+                    "s_second_level_name" : "其他行业"
+                }
+            ]
+        },
+        {
+            "s_first_level_name" : "公司规模",
+            "s_check_single" : false,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "0-20人"
+                },
+                {
+                    "s_second_level_name" : "20-99人"
+                },
+                {
+                    "s_second_level_name" : "100-499人"
+                },
+                {
+                    "s_second_level_name" : "500-999人"
+                },
+                {
+                    "s_second_level_name" : "1000-9999人"
+                },
+                {
+                    "s_second_level_name" : "10000人以上"
+                }
+            ]
+        },
+        {
+            "s_first_level_name" : "融资阶段",
+            "s_check_single" : false,
+            "s_second_level_list" : [
+                {
+                    "s_second_level_name" : "不限"
+                },
+                {
+                    "s_second_level_name" : "未融资"
+                },
+                {
+                    "s_second_level_name" : "天使轮"
+                },
+                {
+                    "s_second_level_name" : "A轮"
+                },
+                {
+                    "s_second_level_name" : "B轮"
+                },
+                {
+                    "s_second_level_name" : "C轮"
+                },
+                {
+                    "s_second_level_name" : "D轮及以上"
+                },
+                {
+                    "s_second_level_name" : "已上市"
+                },
+                {
+                    "s_second_level_name" : "不需要融资"
+                }
+            ]
+        }
+    ]
+}
