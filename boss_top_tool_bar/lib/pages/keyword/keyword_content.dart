@@ -33,8 +33,8 @@ class _JRKeywordContentState extends State<JRKeywordContent> {
     return Stack(
       children: <Widget>[
         buildScreenContentContainer(),
-        buildSearchContainer(),
         buildKeywordBottomToolBarArea(),
+        buildSearchContainer(),
         buildDialogViewArea(),
       ],
     );
@@ -572,6 +572,15 @@ class _JRKeywordContentState extends State<JRKeywordContent> {
                         child: JRSearchResultItem(keywordSecondLevelModel,
                             index: index),
                         onTap: () {
+                          int count = keywordFirstLevelVM.mapList.length;
+                          if (count == 5) {
+                            print('上限');
+                            dismissSearchArea();
+                            _shouldDialogViewShow = false;
+                            setState(() {});
+                            return;
+                          }
+
                           keywordFirstLevelVM
                               .addToKeywordSecondLevelModelNameList(
                                   null,
